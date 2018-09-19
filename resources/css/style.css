@@ -1,0 +1,192 @@
+/* ---
+ general page styles
+    --- */
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    color: #4c6888;
+    background-color: #f0f0f0;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+section {
+    padding: 5% 0;
+}
+
+/* ---
+ reusable components
+    --- */
+
+.nav {
+    float: right;
+    padding-top: 2%;
+}
+
+.nav a {
+    font-size: 135%;
+}
+
+ion-icon {
+    font-size: 350%;
+    display: inline-block;
+}
+
+.card-header,
+.card-footer {
+    background-color: #576574;
+}
+
+/* ---
+ links
+    --- */
+
+a:link,
+a:visited {
+    color: #ff9ff3;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a:hover,
+a:active {
+    color: #f368e0;
+    text-decoration: none;
+}
+
+/* ---
+ headers
+    --- */
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: 'Abril Fatface', cursive;
+    color: #ff9ff3;
+}
+
+h1 {
+    word-spacing: 1px;
+    letter-spacing: -2px;
+    line-height: 110%;
+    font-size: 600%;
+    text-align: center;
+    text-shadow: 2px 2px #f368e0;
+    margin-top: 20%;
+}
+
+h2 {
+    word-spacing: 4px;
+    letter-spacing: -2px;
+    line-height: 145%;
+    font-size: 450%;
+    text-align: center;
+    text-shadow: 2px 2px #f368e0;
+}
+
+h2:after {
+    display: block;
+    content: " "; 
+    width: 7%;
+    margin: 2% auto;
+    border-bottom: 5px dotted #ff9ff3;
+}
+
+h3 {
+    letter-spacing: 0px;
+    font-size: 200%;
+}
+
+header p {
+    text-align: center;
+    font-size: 160%;
+    color: #fff;
+    letter-spacing: 6px;
+    margin-top: 2%;
+}
+
+header p:after {
+    display: block;
+    content: " "; 
+    width: 7%;
+    margin: 2% auto;
+    border-bottom: 5px dotted #ff9ff3;
+}
+
+header {
+    background-image: linear-gradient(rgba(34, 47, 62, 0.7), rgba(34, 47, 62, 0.2)), url(img/hero.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* ---
+ details section
+    --- */
+
+.details { background-color: #fff; }
+
+.details h2 { margin-bottom: 6%; }
+
+.sub-lead { 
+    margin-bottom: 10%; 
+    font-size: 104%;
+}
+
+/* ---
+ venue section
+    --- */
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 50%;
+    margin-top: 6%;
+    position: relative;
+    height: 0;
+    width: 100%;
+    margin-bottom: 6%;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/*
+light pink
+
+#ff9ff3
+
+dark pink
+
+#f368e0
+
+
+
+grey (bg)
+
+#c8d6e5
+
+
+
+light grey
+
+#576574
+
+dark grey
+
+#222f3e
+*/
