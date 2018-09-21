@@ -45,6 +45,21 @@ ion-icon {
     background-color: #576574;
 }
 
+.btn-primary {
+    color: #ff9ff3;
+    background-color: #576574;
+    border-color: #576574;
+    transition: color 0.5s;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+    color: #f368e0;
+    background-color: #576574;
+     border-color: #576574;
+}
+
+
 /* ---
  links
     --- */
@@ -164,6 +179,19 @@ header {
     width: 100%;
     position: absolute;
 }
+
+/* ---
+ rsvp section
+    --- */
+
+button { margin-top: 3%; }
+
+.form-control:focus { 
+    outline: none; 
+    box-shadow: none;
+    border: transparent;
+}
+
 
 /*
 light pink
