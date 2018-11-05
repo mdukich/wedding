@@ -25,9 +25,9 @@
                     <div class="col-md-12">
                         <nav class="nav">
                             
-                        <a class="nav-link" href="#">Details</a>    
-                        <a class="nav-link" href="#">Venue</a>
-                        <a class="nav-link" href="#">RSVP</a>
+                        <a class="nav-link" href="#details" class="js--scroll-details">Details</a>    
+                        <a class="nav-link" href="#venue" class="js--scroll-venue">Venue</a>
+                        <a class="nav-link" href="#rsvp" class="js--scroll-rsvp">RSVP</a>
 
                         </nav>
                     </div>
@@ -43,7 +43,7 @@
             </div>
         </header>
         
-        <section class="details">
+        <section class="details js--section-details" id="details">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -134,7 +134,7 @@
             </div>
         </section>
         
-        <section class="venue">
+        <section class="venue js--section-venue" id="venue">
             <div class="container">
                 <div class="row justify-content-md-center">
                     <div class="col-md-12">
@@ -214,7 +214,7 @@
             </div>
         </section>
 
-        <section class="rsvp">
+        <section class="rsvp js--section-rsvp" id="rsvp">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 justify-content-center">
@@ -238,25 +238,26 @@
                         </fieldset>
                         <fieldset class="form-group">
                             <label for="message">Message</label>
-                            <input type="text" class="form-control form-control-lg" id="message" name="message">
+                            <input type="text" class="form-control form-control" id="message" name="message">
                         </fieldset>
                     <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
-
+                    <br /><br />
                     </div>
                 </div>                
             </div>
             
         </section>
-        <footer>
+        <footer class="page-footer font-small">
             <div class="container">
-                    <div class="col-md-12">
-                        <p><span class="camera">&#x1F4F7;</span> <a href="http://www.amybuckphotography.com">Amy Buck Photography</a></p>
+                <div class="col-md-12">
+                    <div class="footer-copyright text-center"><span class="camera">&#x1F4F7;</span> <a href="http://www.amybuckphotography.com">Amy Buck</a>
                     </div>
+                </div>
             </div>
         </footer>
         
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
@@ -264,7 +265,9 @@
         
     <script src="https://unpkg.com/ionicons@4.4.2/dist/ionicons.js"></script>
         
-    <script data-cfasync="false" type="text/javascript" src="vendors/js/form-submission-handler.js"></script>
+    <script data-cfasync="false" type="text/javascript" src="vendor/js/form-submission-handler.js"></script>
+        
+    <script type="text/javascript" src="resources/js/script.js"></script>
   </body>
 </html>
 

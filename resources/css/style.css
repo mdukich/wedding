@@ -28,8 +28,6 @@ section {
 
 footer {
     background-color: #576574;
-    color: #c8d6e5;
-    font-size: 80%;
 }
 
 span.camera {
@@ -202,7 +200,6 @@ button { margin-top: 3%; }
     box-shadow: none;
     border: transparent;
 }
-
 
 /*
 light pink

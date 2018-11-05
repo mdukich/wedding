@@ -1,1 +1,4 @@
 [24-Oct-2018 01:42:43 UTC] PHP Parse error:  syntax error, unexpected '$to' (T_VARIABLE) in /home/dukichon/public_html/wedding/form-to-email.php on line 29
+[24-Oct-2018 02:45:54 UTC] PHP Notice:  Undefined index: name in /home/dukichon/public_html/wedding/form-to-email.php on line 7
+[24-Oct-2018 02:45:54 UTC] PHP Notice:  Undefined index: email in /home/dukichon/public_html/wedding/form-to-email.php on line 8
+[24-Oct-2018 02:45:54 UTC] PHP Notice:  Undefined index: message in /home/dukichon/public_html/wedding/form-to-email.php on line 9
